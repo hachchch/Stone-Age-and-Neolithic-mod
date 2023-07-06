@@ -336,6 +336,10 @@
 				"quote": "'Those who cannot remember the past are condemned to repeat it.' - George Santayana"
 			},
 			{
+				"name": "Industrialization",
+				"row": 5,
+			},
+			{
 				"name": "Scientific Theory",
 				"row": 4,
 				"prerequisites": ["Economics","Navigation","Acoustics"],
@@ -409,7 +413,7 @@
 				"quote": "'Nothing is particularly hard if you divide it into small jobs.' - Henry Ford"
 			},
 			{
-				"name": "Railroad",
+				"name": "Railroads",
 				"row": 8,
 				"prerequisites": ["Steam Power","Dynamite"],
 				"quote": "'The introduction of so powerful an agent as steam to a carriage on wheels will make a great change in the situation of man.' - Thomas Jefferson"
@@ -434,6 +438,10 @@
 				"row": 4,
 				"prerequisites": ["Electricity"],
 				"quote": "'I once sent a dozen of my friends a telegram saying \"flee at once-all is discovered!\" They all left town immediately.' - Mark Twain"
+			},
+			{
+				"name": "Ballistics",
+				"row": 7,
 			},
 			{
 				"name": "Radio",
@@ -491,6 +499,11 @@
 				"row": 6,
 				"prerequisites": ["Radio","Combustion","Flight"],
 				"quote": "'Vision is the art of seeing things invisible.' - Jonathan Swift"
+			},
+			{
+				"name": "Combined Arms",
+				"row": 8,
+				"prerequisites": ["Ballistics","Combustion"],
 			},
 			{
 				"name": "Atomic Theory",
