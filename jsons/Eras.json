@@ -21,7 +21,7 @@
 		"startingMilitaryUnitCount": 0,
 		"startingMilitaryUnit": "Scout",
 		"startingGold": 0,
-		"settlerPopulation": 2,
+		"settlerPopulation": 1,
 		"startPercent": 10,
 		"citySound": "cityAncient",
 		"embarkDefense": 5,
