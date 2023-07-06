@@ -1,0 +1,30 @@
+[
+        {
+                "name": "創世記",
+                "researchAgreementCost": 0,
+		"startingSettlerCount": 0,
+		"startingWorkerCount": 0,
+		"startingMilitaryUnitCount": 0,
+		"startingMilitaryUnit": "Scout",
+		"startingGold": 0,
+		"settlerPopulation": 1,
+		"startPercent": 1,
+		"citySound": "cityAncient",
+		"embarkDefense": 1,
+		"iconRGB": [233, 31, 99]
+	},
+        {
+                "name": "文明記",
+                "researchAgreementCost": 100,
+		"startingSettlerCount": 1,
+		"startingWorkerCount": 0,
+		"startingMilitaryUnitCount": 0,
+		"startingMilitaryUnit": "Scout",
+		"startingGold": 0,
+		"settlerPopulation": 2,
+		"startPercent": 10,
+		"citySound": "cityAncient",
+		"embarkDefense": 5,
+		"iconRGB": [233, 31, 99]
+        }
+]
