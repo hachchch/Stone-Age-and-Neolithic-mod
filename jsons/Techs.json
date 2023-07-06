@@ -343,6 +343,7 @@
 			{
 				"name": "Industrialization",
 				"row": 5,
+				"prerequisites": ["Economics"],
 			},
 			{
 				"name": "Scientific Theory",
