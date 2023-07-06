@@ -129,8 +129,8 @@
 			},
 			{
 				"name": "Philosophy",
-				"row": 3,
-				"prerequisites": ["Writing"],
+				"row": 2,
+				"prerequisites": ["Calender","Writing"],
 				"uniques": ["Enables Research agreements"],
 				"quote": "'There is only one good, knowledge, and one evil, ignorance.' - Socrates"
 			},
@@ -170,7 +170,7 @@
 			{
 				"name": "Theology",
 				"row": 2,
-				"prerequisites": ["Calendar","Philosophy"],
+				"prerequisites": ["Philosophy"],
 				"quote": "'Three things are necessary for the salvation of man: to know what he ought to believe; to know what he ought to desire; and to know what he ought to do' - St. Thomas Aquinas"
 			},
 			{
@@ -447,7 +447,7 @@
 			{
 				"name": "Ballistics",
 				"row": 7,
-				"prerequisites": ["Flight"],
+				"prerequisites": ["Replaceable Parts"],
 			},
 			{
 				"name": "Radio",
@@ -617,26 +617,17 @@
 				"row": 8,
 				"prerequisites": ["Stealth","Satellites","Advanced Ballistics"],
 				"quote": "'The release of atomic energy has not created a new problem. It has readily made more urgent the necessity of solving an existing one.' - Albert Einstein"
-			}
-		]
-	},
-	{
-		"columnNumber": 16,
-		"era": "Future era",
-		"techCost": 9500,
-		"buildingCost": 750,
-		"wonderCost": 1250,
-		"techs": [
+			},
 			{
 				"name": "Nanotechnology",
-				"row": 5,
+				"row": 4,
 				"prerequisites": ["Particle Physics"],
 				"quote": "'The impact of nanotechnology is expected to exceed the impact that the electronics revolution has had on our lives.' - Richard Schwartz"
 			}
 		]
 	},
 	{
-		"columnNumber": 17,
+		"columnNumber": 16,
 		"era": "Future era",
 		"techCost": 9500,
 		"buildingCost": 750,
