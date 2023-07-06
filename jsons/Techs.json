@@ -303,6 +303,11 @@
 				"quote": "'The winds and the waves are always on the side of the ablest navigators.' - Edward Gibbon"
 			},
 			{
+				"name": "Architecture",
+				"row": 1,
+				"prerequisites": ["Acoustics","Banking"],
+			},
+			{
 				"name": "Economics",
 				"row": 6,
 				"prerequisites": ["Banking","Printing Press"],
@@ -442,6 +447,7 @@
 			{
 				"name": "Ballistics",
 				"row": 7,
+				"prerequisites": ["Flight"],
 			},
 			{
 				"name": "Radio",
@@ -458,7 +464,7 @@
 			{
 				"name": "Combustion",
 				"row": 8,
-				"prerequisites": ["Railroad","Replaceable Parts"],
+				"prerequisites": ["Railroads","Replaceable Parts"],
 				"quote": "'Any man who can drive safely while kissing a pretty girl is simply not giving the kiss the attention it deserves.' - Albert Einstein"
 			}
 		]
