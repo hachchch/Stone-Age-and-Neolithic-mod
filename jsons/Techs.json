@@ -29,12 +29,12 @@
 			{
 				"name": "Gathering",
 				"row": 7,
-				"prerequisites": ["Fist Ideas"],
+				"prerequisites": ["Fist Idea"],
 			},
 			{
 				"name": "Recollecting",
 				"row": 5,
-				"prerequisites": ["First Ideas"],
+				"prerequisites": ["First Idea"],
 			}
 		]
 	},
@@ -84,7 +84,7 @@
 			{
 				"name": "Advanced Stone working",
 				"row": 1,
-				"prerequisites": ["Stone workings","Fibar String"],
+				"prerequisites": ["Stone working","Fibar String"],
 			},
 			{
 				"name": "Fire",
@@ -106,13 +106,18 @@
 				"prerequisites": ["Abstract Thinking"],
 			},
 			{
+				"name": "Building",
+				"row": 5,
+				"prerequisites": ["Abstract Thinking","Fire","Advanced Stone working"],
+			},
+			{
 				"name": "Cooking",
 				"row": 9,
 				"prerequisites": ["Fire"],
 			},
 			{
 				"name": "Speaking",
-				"row": 5,
+				"row": 4,
 				"uniques": ["[+1 Science]"],
 				"prerequisites": ["Fire"],
 			},
