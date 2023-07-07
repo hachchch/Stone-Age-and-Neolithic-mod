@@ -9,7 +9,7 @@
 			{
 				"name": "First Idea",
 				"row": 5,
-				"uniques": ["[+1 Science, +2 Gold]","Starting tech"],
+				"uniques": ["[+1 Science]","Starting tech"],
 			}
 		]
 	},
