@@ -3,8 +3,9 @@
                 "name": "Tribes day",
                 "isNationalWonder": true,
                 "cost": 1,
-                "Gold": 4,
+                "Gold": 3,
                 "Production": -4,
+                "Science": -4,
                 "Food": -1,
                 "uniques": ["Nullifies Growth [in all cities] <before discovering [Agriculture]>"]
         }
