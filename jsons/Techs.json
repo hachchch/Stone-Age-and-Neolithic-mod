@@ -8,7 +8,7 @@
 		"techs": [
 			{
 				"name": "Perception",
-				"row": 10,
+				"row": 9,
 				"unique": ["[+1 Science]"],
 			}
 		]
