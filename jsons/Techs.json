@@ -9,7 +9,7 @@
 			{
 				"name": "First Idea",
 				"row": 8,
-				"unique": ["[+1 Science]","Starting tech"],
+				"uniques": ["[+1 Science]","Starting tech"],
 			}
 		]
 	},
@@ -23,7 +23,7 @@
 			{
 				"name": "Stone working",
 				"row": 11,
-				"unique": [,"[+25]% strength <for [Warrior] units>"],
+				"uniques": [,"[+25]% strength <for [Warrior] units>"],
 
 			}
 		]
@@ -38,7 +38,7 @@
 			{
 				"name": "Perception",
 				"row": 9,
-				"unique": ["[+1 Science]"],
+				"uniques": ["[+1 Science]"],
 			}
 		]
 	},
@@ -52,7 +52,7 @@
 			{
 				"name": "Abstract Thinking",
 				"row": 10,
-				"unique": ["[+1 Faith]"],
+				"uniques": ["[+1 Faith]"],
 			}
 		]
 	},
