@@ -7,6 +7,32 @@
 		"wonderCost": 100,
 		"techs": [
 			{
+				"name": "Abstract Thinking",
+				"row": 3,
+				"unique": ["[+1 Faith]"],
+			}
+		]
+	},
+		"columnNumber": 0,
+                "era": "Ancient era",
+                "techCost": 20,
+		"buildingCost": 40,
+		"wonderCost": 100,
+		"techs": [
+			{
+				"name": "Art",
+				"row": 3,
+				"prerequisites": ["Abstract Thinking"],
+			}
+		]
+	},
+		"columnNumber": 0,
+                "era": "Ancient era",
+                "techCost": 20,
+		"buildingCost": 40,
+		"wonderCost": 100,
+		"techs": [
+			{
 				"name": "Communication",
 				"row": 1,
 				"prerequisites": ["Hunting spot"],
