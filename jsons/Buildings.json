@@ -1,0 +1,6 @@
+[
+        {
+                "name": "Tribes day",
+                "isNationalWonder": true,
+                "cost": 1,
+                "uniques": ["Nullifies Growth [in all cities] <>"]
