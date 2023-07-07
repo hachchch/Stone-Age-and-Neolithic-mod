@@ -235,6 +235,11 @@
 				"quote": "'There is only one good, knowledge, and one evil, ignorance.' - Socrates"
 			},
 			{
+				"name": "Drama and Poetry",
+				"row": 3,
+				"prerequisites": ["Writing"],
+			},
+			{
 				"name": "Horseback Riding",
 				"row": 5,
 				"prerequisites": ["The Wheel"],
