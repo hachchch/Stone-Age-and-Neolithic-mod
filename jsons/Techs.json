@@ -84,7 +84,7 @@
 			{
 				"name": "Advanced Stone working",
 				"row": 1,
-				"prerequisites": ["Stone working","Fibar String"],
+				"prerequisites": ["Hunting","Fibar String"],
 			},
 			{
 				"name": "Fire",
