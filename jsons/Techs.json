@@ -72,7 +72,7 @@
 				"name": "Urbanization",
 				"row": 4,
 				"quote": "",
-				"uniques": ["Starting tech","[1] free [Settler] units appear"]
+				"uniques": ["Starting tech"]
 			},
 		]
 	},
@@ -127,7 +127,7 @@
 				"row": 9,
 				"prerequisites": ["Mining"],
 				"quote": "'The meek shall inherit the Earth, but not its mineral rights.' - J. Paul Getty"
-				"uniques": ["[+1 Production] from every [Mine]"],
+				"uniques": ["[+1 Production] from [Mine] tiles [in all cities]"],
 			}
 		]
 	},
