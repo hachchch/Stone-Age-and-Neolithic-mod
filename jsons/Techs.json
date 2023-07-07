@@ -7,6 +7,20 @@
 		"wonderCost": 100,
 		"techs": [
 			{
+				"name": "Perception",
+				"row": 10,
+				"unique": ["[+1 Science]"],
+			}
+		]
+	},
+	{
+		"columnNumber": 0,
+                "era": "Ancient era",
+                "techCost": 20,
+		"buildingCost": 40,
+		"wonderCost": 100,
+		"techs": [
+			{
 				"name": "Abstract Thinking",
 				"row": 10,
 				"unique": ["[+1 Faith]"],
