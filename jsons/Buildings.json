@@ -6,5 +6,5 @@
                 "Gold": 4,
                 "Production": -4,
                 "Food": -1,
-                "Culture": -1
+                "Culture": -1,
                 "uniques": ["Nullifies Growth [in all cities] <before discovering [Agriculture]>"]
