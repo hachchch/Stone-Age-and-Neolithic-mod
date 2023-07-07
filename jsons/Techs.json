@@ -29,7 +29,7 @@
 			{
 				"name": "Gathering",
 				"row": 7,
-				"prerequisites": ["Fist Idea"],
+				"prerequisites": ["First Idea"],
 			},
 			{
 				"name": "Recollecting",
