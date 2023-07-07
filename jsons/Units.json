@@ -4,7 +4,7 @@
 		"unitType": "Civilian",
 		"movement": 2,
 		"cost": 106,
-		"uniques": ["Founds a new city <after discovering [Building]>"],
+		"uniques": ["Founds a new city","Unbuildable <before discovering [Urbanization]>"],
 		"hurryCostModifier": 20
         },
         {
