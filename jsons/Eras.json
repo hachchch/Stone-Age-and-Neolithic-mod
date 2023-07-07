@@ -1,11 +1,11 @@
 [
         {
-                "name": "創世記",
+                "name": "The Genesis",
                 "researchAgreementCost": 0,
-		"startingSettlerCount": 0,
+		"startingSettlerCount": 1,
 		"startingWorkerCount": 0,
-		"startingMilitaryUnitCount": 0,
-		"startingMilitaryUnit": "Scout",
+		"startingMilitaryUnitCount": 7,
+		"startingMilitaryUnit": "Warrior",
 		"startingGold": 0,
 		"settlerPopulation": 1,
 		"startPercent": 1,
@@ -14,11 +14,11 @@
 		"iconRGB": [233, 31, 99]
 	},
         {
-                "name": "文明記",
+                "name": "Uncivilized era",
                 "researchAgreementCost": 100,
 		"startingSettlerCount": 1,
 		"startingWorkerCount": 0,
-		"startingMilitaryUnitCount": 0,
+		"startingMilitaryUnitCount": 1,
 		"startingMilitaryUnit": "Scout",
 		"startingGold": 0,
 		"settlerPopulation": 1,
