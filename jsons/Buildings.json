@@ -6,7 +6,6 @@
                 "Gold": 3,
                 "Production": -4,
                 "Science": -4,
-                "Food": -1,
-                "uniques": ["Nullifies Growth [in all cities] <before discovering [Agriculture]>"]
+                "uniques": ["Nullifies Growth [in all cities] <before discovering [Agriculture]>","[+99999]% Culture cost of natural border growth [in all cities] <before discovering [Agriculture]>"]
         }
 ]
