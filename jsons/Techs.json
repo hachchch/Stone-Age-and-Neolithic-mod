@@ -8,7 +8,7 @@
 		"techs": [
 			{
 				"name": "First Idea",
-				"row": 8,
+				"row": 5,
 				"uniques": ["[+1 Science]","Starting tech"],
 			}
 		]
@@ -22,9 +22,19 @@
 		"techs": [
 			{
 				"name": "Stone working",
-				"row": 11,
-				"uniques": [,"[+25]% strength <for [Warrior] units>"],
-
+				"row": 3,
+				"uniques": ["[+25]% strength <for [Warrior] units>"],
+				"prerequisites": ["First Idea"],
+			},
+			{
+				"name": "Gathering",
+				"row": 7,
+				"prerequisites": ["Fist Ideas"],
+			},
+			{
+				"name": "Recollecting",
+				"row": 5,
+				"prerequisites": ["First Ideas"],
 			}
 		]
 	},
@@ -37,8 +47,24 @@
 		"techs": [
 			{
 				"name": "Perception",
-				"row": 9,
+				"row": 5,
 				"uniques": ["[+1 Science]"],
+				"prerequisites": ["Recollecting"],
+			},
+			{
+				"name": "Hunting",
+				"row": 3,
+				"prerequisites": ["Stone working"],
+			},
+			{
+				"name": "Counts",
+				"row": 7,
+				"prerequisites": ["Gathering"],
+			},
+			{
+				"name": "Fibar String",
+				"row": 9,
+				"prerequisites": ["Gathering"],
 			}
 		]
 	},
@@ -51,8 +77,19 @@
 		"techs": [
 			{
 				"name": "Abstract Thinking",
-				"row": 10,
+				"row": 5,
 				"uniques": ["[+1 Faith]"],
+				"prerequisites": ["Perception"],
+			},
+			{
+				"name": "Advanced Stone working",
+				"row": 1,
+				"prerequisites": ["Stone workings","Fibar String"],
+			},
+			{
+				"name": "Fire",
+				"row": 9,
+				"prerequisites": ["Fibar String"],
 			}
 		]
 	},
@@ -67,7 +104,23 @@
 				"name": "Art",
 				"row": 3,
 				"prerequisites": ["Abstract Thinking"],
-			}
+			},
+			{
+				"name": "Cooking",
+				"row": 9,
+				"prerequisites": ["Fire"],
+			},
+			{
+				"name": "Speaking",
+				"row": 5,
+				"uniques": ["[+1 Science]"],
+				"prerequisites": ["Fire"],
+			},
+			{
+				"name": "Morality",
+				"row": 1,
+				"prerequisites": ["Abstract Thinking"],
+			},
 		]
 	},
 	{
@@ -80,12 +133,12 @@
 			{
 				"name": "Communication",
 				"row": 1,
-				"prerequisites": ["Art"],
-				"uniques": ["[+1 Culture, +1 Science]"],
+				"prerequisites": ["Speaking"],
+				"uniques": ["[+1 Culture]"],
 			},
 			{
 				"name": "Hunting spot",
-				"row": 2,
+				"row": 5,
 				"prerequisites": ["Art"],
 			}
 		]
