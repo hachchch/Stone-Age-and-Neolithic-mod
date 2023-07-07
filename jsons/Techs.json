@@ -1,4 +1,23 @@
 [
+	{
+		"columnNumber": 0,
+                "era": "Ancient era",
+                "techCost": 20,
+		"buildingCost": 40,
+		"wonderCost": 100,
+		"techs": [
+			{
+				"name": "Communication",
+				"row": 1,
+				"prerequisites": ["Hunting spot"],
+			},
+			{
+				"name": "Hunting spot",
+				"row": 2,
+				"prerequisites": ["Art"],
+			}
+		]
+	},
         {
                 "columnNumber": 0,
                 "era": "Ancient era",
@@ -11,7 +30,7 @@
 				"row": 4,
 				"quote": "",
 				"uniques": ["Starting tech"]
-			}
+			},
 		]
 	},
 	{
@@ -24,7 +43,13 @@
 				"name": "Agriculture",
 				"row": 5,
 				"quote": "'Where tillage begins, other arts follow. The farmers therefore are the founders of human civilization.' - Daniel Webster",
-				"uniques": ["Starting tech"]
+				"prerequisites": ["Urbanization"],
+			},
+			{
+				"name": "Mining",
+				"row": 6,
+				"prerequisites": ["Urbanization"],
+				"quote": "'The meek shall inherit the Earth, but not its mineral rights.' - J. Paul Getty"
 			}
 		]
 	},
@@ -53,10 +78,11 @@
 				"quote": "'The haft of the arrow has been feathered with one of the eagle's own plumes, we often give our enemies the means of our own destruction' - Aesop"
 			},
 			{
-				"name": "Mining",
+				"name": "Mining tools",
 				"row": 9,
-				"prerequisites": ["Agriculture"],
+				"prerequisites": ["Mining"],
 				"quote": "'The meek shall inherit the Earth, but not its mineral rights.' - J. Paul Getty"
+				"uniques": ["[+1 Production] from every [Mine]"],
 			}
 		]
 	},
@@ -101,13 +127,13 @@
 			{
 				"name": "Masonry",
 				"row": 9,
-				"prerequisites": ["Mining"],
+				"prerequisites": ["Mining tools"],
 				"quote": "'How happy are those whose walls already rise!' - Virgil"
 			},
 			{
 				"name": "Bronze Working",
 				"row": 10,
-				"prerequisites": ["Mining"],
+				"prerequisites": ["Mining tools"],
 				"quote": "'Here Hector entered, with a spear eleven cubits long in his hand; the bronze point gleamed in front of him, and was fastened to the shaft of the spear by a ring of gold.' - Homer"
 			}
 		]
