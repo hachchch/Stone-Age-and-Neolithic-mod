@@ -1,21 +1,36 @@
 [
 	{
 		"columnNumber": 0,
-                "era": "Ancient era",
+                "era": "The Genesis",
                 "techCost": 20,
 		"buildingCost": 40,
 		"wonderCost": 100,
 		"techs": [
 			{
-				"name": "First",
+				"name": "First Idea",
 				"row": 8,
-				"unique": ["[+1 Science]"],
+				"unique": ["[+1 Science]","Starting tech"],
 			}
 		]
 	},
 	{
 		"columnNumber": 0,
-                "era": "Ancient era",
+                "era": "The Genesis",
+                "techCost": 20,
+		"buildingCost": 40,
+		"wonderCost": 100,
+		"techs": [
+			{
+				"name": "Stone working",
+				"row": 11,
+				"unique": [,"[+25]% strength <for [Warrior] units>"],
+
+			}
+		]
+	},
+	{
+		"columnNumber": 0,
+                "era": "Uncivilized era",
                 "techCost": 20,
 		"buildingCost": 40,
 		"wonderCost": 100,
@@ -86,7 +101,7 @@
 				"name": "Urbanization",
 				"row": 4,
 				"quote": "",
-				"uniques": ["Starting tech"]
+				"prerequisites": ["Hunting spot","Communication"],
 			},
 		]
 	},
