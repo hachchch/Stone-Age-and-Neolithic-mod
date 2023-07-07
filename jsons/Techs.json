@@ -80,7 +80,7 @@
 			{
 				"name": "Communication",
 				"row": 1,
-				"prerequisites": ["Hunting spot"],
+				"prerequisites": ["Art"],
 				"uniques": ["[+1 Culture, +1 Science]"],
 			},
 			{
