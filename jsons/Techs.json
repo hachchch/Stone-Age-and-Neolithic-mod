@@ -10,6 +10,7 @@
 				"name": "Communication",
 				"row": 1,
 				"prerequisites": ["Hunting spot"],
+				"uniques": ["[+1 Culture, +1 Science]"],
 			},
 			{
 				"name": "Hunting spot",
@@ -29,7 +30,7 @@
 				"name": "Urbanization",
 				"row": 4,
 				"quote": "",
-				"uniques": ["Starting tech"]
+				"uniques": ["Starting tech","[1] free [Settler] units appear"]
 			},
 		]
 	},
