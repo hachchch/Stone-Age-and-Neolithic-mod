@@ -16,6 +16,6 @@
 		"obsoleteTech": "Metal Casting",
 		"upgradesTo": "Swordsman",
 		"attackSound": "nonmetalhit",
-                "uniques": ["[+25]% strength <after discovering [Stone working]>"],
+                "uniques": ["[+25]% strength <after discovering [Stone working]>","[+25]% strength <after discovering [Advanced Stone working]>","[+10]% strength <after discovering [Fire]>","+[50]% combat bonus for units fighting in [Forest] <after discovering [Fire]>"],
         }
 ]
