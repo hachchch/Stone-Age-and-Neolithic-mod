@@ -81,6 +81,7 @@
 		"era": "Ancient era",
 		"techCost": 20,
 		"buildingCost": 40,
+		"wonderCost": 100,
 		"techs": [
 			{
 				"name": "Agriculture",
@@ -101,6 +102,7 @@
 		"era": "Ancient era",
 		"techCost": 35,
 		"buildingCost": 60,
+		"wonderCost": 100,
 		"techs": [
 			{
 				"name": "Pottery",
@@ -287,7 +289,7 @@
 				"name": "Education",
 				"row": 3,
 				"prerequisites": ["Theology","Civil Service"],
-				"uniques": ["Enables conversion of city production to science"],
+				"uniques": ["Enables conversion of city production to [Science]"],
 				"quote": "'Education is the best provision for old age.' - Aristotle"
 			},
 			{
@@ -328,7 +330,7 @@
 			{
 				"name": "Astronomy",
 				"row": 2,
-				"uniques": ["Increases embarked movement +1","Enables embarked units to enter ocean tiles"],
+				"uniques": ["[+1 Movement] <for [Embarked] units>","Enables [Embarked] units to enter ocean tiles <starting from the [Ancient era]>"],
 				"prerequisites": ["Compass","Education"],
 				"quote": "'Joyfully to the breeze royal Odysseus spread his sail, and with his rudder skillfully he steered.' - Homer"
 			},
@@ -456,7 +458,7 @@
 			{
 				"name": "Steam Power",
 				"row": 6,
-				"uniques": ["Increases embarked movement +1"],
+				"uniques": ["[+1 Movement] <for [Embarked] units>"],
 				"prerequisites": ["Scientific Theory","Military Science"],
 				"quote": "'The nations of the West hope that by means of steam communication all the world will become as one family.' - Townsend Harris"
 			},
