@@ -7,7 +7,7 @@
 		"wonderCost": 100,
 		"techs": [
 			{
-				"name": "First Thinking",
+				"name": "First",
 				"row": 8,
 				"unique": ["[+1 Science]"],
 			}
