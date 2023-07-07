@@ -145,7 +145,12 @@
 				"name": "Hunting spot",
 				"row": 5,
 				"prerequisites": ["Art"],
-			}
+			},
+			{
+				"name": "Burial",
+				"row": 3,
+				"prerequisites": ["Morality"],
+			},
 		]
 	},
         {
