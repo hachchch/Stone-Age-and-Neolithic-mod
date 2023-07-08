@@ -40,7 +40,7 @@
 	},
 	{
 		"columnNumber": 2,
-                "era": "Uncivilized era",
+                "era": "The Genesis",
                 "techCost": 20,
 		"buildingCost": 40,
 		"wonderCost": 100,
@@ -70,7 +70,7 @@
 	},
 	{
 		"columnNumber": 3,
-                "era": "Ancient era",
+                "era": "The Genesis",
                 "techCost": 20,
 		"buildingCost": 40,
 		"wonderCost": 100,
@@ -95,7 +95,7 @@
 	},
 	{
 		"columnNumber": 4,
-                "era": "Ancient era",
+                "era": "Uncivilized era",
                 "techCost": 20,
 		"buildingCost": 40,
 		"wonderCost": 100,
@@ -130,7 +130,7 @@
 	},
 	{
 		"columnNumber": 5,
-                "era": "Ancient era",
+                "era": "Uncivilized era",
                 "techCost": 20,
 		"buildingCost": 40,
 		"wonderCost": 100,
@@ -155,7 +155,7 @@
 	},
         {
                 "columnNumber": 6,
-                "era": "Ancient era",
+                "era": "Uncivilized era",
                 "techCost": 20,
 		"buildingCost": 40,
 		"wonderCost": 100,
